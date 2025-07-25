@@ -2,7 +2,7 @@
 
 A Raspberry Pi–based system that translates Arabic sign language into text using a camera, YOLOv8, and OLED display.
 
-You can download the model here: https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing
+You can find the model here: https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing
 
 You can find the training dataset here: https://drive.google.com/drive/folders/1PmPBZ0STuz2Dh63e2UuzwXhnvdIdGEAR?usp=sharing
 
