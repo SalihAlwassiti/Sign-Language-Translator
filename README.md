@@ -4,6 +4,8 @@ A Raspberry Pi–based system that translates Arabic sign language into text usi
 
 You can download the model here: https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing
 
+You can find the training dataset here: https://drive.google.com/drive/folders/1PmPBZ0STuz2Dh63e2UuzwXhnvdIdGEAR?usp=sharing
+
 ## Features
 - Real-time gesture recognition
 - Raspberry Pi compatible
