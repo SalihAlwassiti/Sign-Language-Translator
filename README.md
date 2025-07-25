@@ -2,6 +2,8 @@
 
 A Raspberry Pi–based system that translates Arabic sign language into text using a camera, YOLOv8, and OLED display.
 
+You can download the model here: https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=drive_link
+
 ## Features
 - Real-time gesture recognition
 - Raspberry Pi compatible
