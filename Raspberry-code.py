@@ -19,7 +19,7 @@ font_path = "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf"
 arabic_font = ImageFont.truetype(font_path, 20)
 
 # Initialize YOLO model
-model = YOLO('/home/SA/Downloads/8mMine30.pt')  
+model = YOLO('/home/SA/Downloads/YoloModel.pt')  
 
 # Initialize PiCamera (Arducam)
 picam2 = Picamera2()
