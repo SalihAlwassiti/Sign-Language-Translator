@@ -1,16 +1,17 @@
 path: C:/Main/Coding/Code/GP/MyDataSet/dataset
 
-train: train/images
-val: val/images     
+train: train/images  
+val: val/images    
+test: test/images 
 nc: 9
 
 names:
-  0: "\u0623\u0646\u0627"
-  1: "\u0645\u0631\u062D\u0628\u0627"
-  2: "\u0645"
-  3: "\u062D"
-  4: "\u062F"
-  5: "\u0634\u0643\u0631\u0627\u064B"
-  6: "\u0635\u062F\u064A\u0642"
-  7: "\u0645\u0631\u064A\u0636"
-  8: "\u0636\u063A\u0637 \u0627\u0644\u062F\u0645"
+  0: "أنا"
+  1: "مرحبا"
+  2: "م"
+  3: "ح"
+  4: "د"
+  5: "شكراً"
+  6: "صديق"
+  7: "مريض"
+  8: "ضغط الدم"
