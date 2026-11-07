@@ -37,5 +37,5 @@ The YOLOv8m model (25.86M parameters, 12.65 GFLOPs at 256x256) was selected foll
 Runtime profiling on the Pi 5 demonstrates that aggressive system-cleanup optimization reduced overall pipeline latency by 37.7%, bringing inference time to ~271 ms and enabling interactive, step-by-step gesture translation.
 
 ## Data & Resources
-* **[Pre-trained Model Weights (.pt)](https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing)** 
+* **[Trained Model Weights (.pt)](https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing)** 
 * **[Custom ArSL Dataset](https://drive.google.com/drive/folders/1PmPBZ0STuz2Dh63e2UuzwXhnvdIdGEAR?usp=sharing)** (1,881 images, 9 gesture classes, 5 signers)
