@@ -5,9 +5,8 @@ import random
 
 def main():
     model = YOLO("yolov8m.pt")
-
-    CWD = os.getcwd()
-    Yaml = os.path.join(CWD, 'MyDataSet', 'Modified.yaml')
+    
+    Yaml = os.path.join(r'path_to_dataset', 'training_index.yaml')
 
     # Generate a random integer to use as the seed
     # current_seed = random.randint(0, 100000)
@@ -15,12 +14,12 @@ def main():
 
     results = model.train(
         data = Yaml,
-        epochs = 40,
+        epochs = 30,
         imgsz = 256,
         batch = 8,
         device = 'cuda',
         optimizer = "Adam",   
-        name = "8m_40epoch",
+        name = "8m_30epoch",
         lr0 = 0.001,
         augment = True,  
         workers = 0
