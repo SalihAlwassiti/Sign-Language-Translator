@@ -2,11 +2,8 @@ from ultralytics import YOLO
 from multiprocessing import freeze_support
 import os
 
-whichone = '8m'
-
-CWD = os.getcwd()
-best_model_path = os.path.join('runs', 'detect', whichone, 'weights', 'best.pt')
-Yaml = os.path.join(CWD, 'MyDataSet', 'Modified.yaml')
+best_model_path = r'path_to_model'
+Yaml = os.path.join(r'path_to_dataset', 'training_index.yaml')
 
 def run_quantitative_evaluation(model_path, yaml_path):
     model = YOLO(model_path)
