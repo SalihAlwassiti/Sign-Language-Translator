@@ -39,3 +39,26 @@ Runtime profiling on the Pi 5 demonstrates that aggressive system-cleanup optimi
 ## Data & Resources
 * **[Trained Model Weights (.pt)](https://drive.google.com/drive/folders/1XXze9fPnTA2mRvC8mJ-rIK5xZXEmi15h?usp=sharing)** 
 * **[Custom ArSL Dataset](https://drive.google.com/drive/folders/1PmPBZ0STuz2Dh63e2UuzwXhnvdIdGEAR?usp=sharing)** (1,881 images, 9 gesture classes, 5 signers)
+
+
+## Citation
+
+If you use this work, the code, or the dataset in your research, please cite our paper:
+
+### APA / MDPI Style
+Radwan, A., Alwassiti, S., Armouti, S., Ma’aitah, M. K. S., Hamdan, M., Dinara, K., Alshubbak, A., & Manasreh, A. (2026). An Edge-AI System for Arabic Sign Language Detection Using YOLOv8m and Raspberry Pi 5. *Future Internet*, 18(11), 618. https://doi.org/10.3390/fi18110618
+
+### BibTeX
+```bibtex
+@article{radwan2026edge,
+  title     = {An Edge-AI System for Arabic Sign Language Detection Using YOLOv8m and Raspberry Pi 5},
+  author    = {Radwan, Abdelrahman and Alwassiti, Salih and Armouti, Sama and Ma'aitah, Mohammad K. S. and Hamdan, Mohammad and Dinara, Kassymova and Alshubbak, Ala'a and Manasreh, Adnan},
+  journal   = {Future Internet},
+  volume    = {18},
+  number    = {11},
+  pages     = {618},
+  year      = {2026},
+  publisher = {MDPI},
+  doi       = {10.3390/fi18110618},
+  url       = {[https://doi.org/10.3390/fi18110618](https://doi.org/10.3390/fi18110618)}
+}
